@@ -126,69 +126,69 @@ e=0.5;
                                  end 
                                  
                                        if(count_3==0&&no_col<ceil(0.03*t_feat))
-                                        dlmwrite('best_feat_wpbc_3.txt',DD,'-append','delimiter','\t');
-                                        dlmwrite('best_feat_wpbc_3.txt',coord1,'-append','delimiter','\t');
-                                        dlmwrite('best_feat_wpbc_3.txt',weight_s,'-append','delimiter','\t');
+                                        dlmwrite('best_feat_wpbc_3.txt',DD,'-append','delimiter','\t'); %Features%
+                                        dlmwrite('best_feat_wpbc_rank_3.txt',coord1,'-append','delimiter','\t'); %Feature rank%
+                                        dlmwrite('best_feat_wpbc_weight_3.txt',weight_s,'-append','delimiter','\t'); %Feature weights%
                                         count_3=1;
                                        elseif(count_5==0&&no_col<ceil(0.05*t_feat))
                                         dlmwrite('best_feat_wpbc_5.txt',DD,'-append','delimiter','\t');
-                                        dlmwrite('best_feat_alz_CN-AD-Freesurfer_univ_rank_5.txt',coord1,'-append','delimiter','\t');
-                                        dlmwrite('best_feat_wpbc_5.txt',weight_s,'-append','delimiter','\t');
+                                        dlmwrite('best_feat_wpbc_rank_5.txt',coord1,'-append','delimiter','\t');
+                                        dlmwrite('best_feat_wpbc_weight_5.txt',weight_s,'-append','delimiter','\t');
                                         count_5=1;
                                        elseif(count_8==0&&no_col<ceil(0.08*t_feat))
                                         dlmwrite('best_feat_wpbc_8.txt',DD,'-append','delimiter','\t');
-                                        dlmwrite('best_feat_alz_CN-AD-Freesurfer_univ_rank_8.txt',coord1,'-append','delimiter','\t');
-                                        dlmwrite('best_feat_wpbc_8.txt',weight_s,'-append','delimiter','\t');
+                                        dlmwrite('best_feat_wpbc_rank_8.txt',coord1,'-append','delimiter','\t');
+                                        dlmwrite('best_feat_wpbc_weight_8.txt',weight_s,'-append','delimiter','\t');
                                         count_8=1;
                                         elseif(count_10==0&&no_col<ceil(0.10*t_feat))
                                         dlmwrite('best_feat_wpbc_10.txt',DD,'-append','delimiter','\t');
                                         dlmwrite('best_feat_wpbc_rank_10.txt',coord1,'-append','delimiter','\t');
-                                        dlmwrite('best_feat_wpbc_10.txt',weight_s,'-append','delimiter','\t');
+                                        dlmwrite('best_feat_wpbc_weight_10.txt',weight_s,'-append','delimiter','\t');
                                         count_10=1;
                                          elseif(count_13==0&&no_col<ceil(0.13*t_feat))
                                         dlmwrite('best_feat_wpbc_13.txt',DD,'-append','delimiter','\t');
                                         dlmwrite('best_feat_wpbc_rank_13.txt',coord1,'-append','delimiter','\t');
-                                        dlmwrite('best_feat_wpbc_13.txt',weight_s,'-append','delimiter','\t');
+                                        dlmwrite('best_feat_wpbc_weight_13.txt',weight_s,'-append','delimiter','\t');
                                         count_13=1;
                                         elseif(count_15==0&&no_col<ceil(0.15*t_feat))
                                         dlmwrite('best_feat_wpbc_15.txt',DD,'-append','delimiter','\t');
                                          dlmwrite('best_feat_wpbc_rank_15.txt',coord1,'-append','delimiter','\t');
-                                        dlmwrite('best_feat_wpbc_15.txt',weight_s,'-append','delimiter','\t');
+                                        dlmwrite('best_feat_wpbc_weight_15.txt',weight_s,'-append','delimiter','\t');
                                         count_15=1;                                         
                                         elseif(count_20==0&&no_col<ceil(0.20*t_feat))
                                         dlmwrite('best_feat_wpbc_20.txt',DD,'-append','delimiter','\t');
                                          dlmwrite('best_feat_wpbc_rank_20.txt',coord1,'-append','delimiter','\t');
-                                        dlmwrite('best_feat_wpbc_20.txt',weight_s,'-append','delimiter','\t');
+                                        dlmwrite('best_feat_wpbc_weight_20.txt',weight_s,'-append','delimiter','\t');
                                         count_20=1;
                                          elseif(count_25==0&&no_col<ceil(0.25*t_feat))
                                         dlmwrite('best_feat_wpbc_25.txt',DD,'-append','delimiter','\t');
                                          dlmwrite('best_feat_wpbc_rank_25.txt',coord1,'-append','delimiter','\t');
-                                        dlmwrite('best_feat_wpbc_25.txt',weight_s,'-append','delimiter','\t');
+                                        dlmwrite('best_feat_wpbc_weight_25.txt',weight_s,'-append','delimiter','\t');
                                         count_25=1;
                                         elseif(count_30==0&&no_col<ceil(0.30*t_feat))
                                         dlmwrite('best_feat_wpbc_30.txt',DD,'-append','delimiter','\t');
                                         dlmwrite('best_feat_wpbc_rank_30.txt',coord1,'-append','delimiter','\t');
-                                        dlmwrite('best_feat_wpbc_30.txt',weight_s,'-append','delimiter','\t');
+                                        dlmwrite('best_feat_wpbc_weight_30.txt',weight_s,'-append','delimiter','\t');
                                         count_30=1;
                                         elseif(count_35==0&&no_col<ceil(0.35*t_feat))
                                         dlmwrite('best_feat_wpbc_35.txt',DD,'-append','delimiter','\t');
                                         dlmwrite('best_feat_wpbc_rank_35.txt',coord1,'-append','delimiter','\t');
-                                        dlmwrite('best_feat_wpbc_35.txt',weight_s,'-append','delimiter','\t');
+                                        dlmwrite('best_feat_wpbc_weight_35.txt',weight_s,'-append','delimiter','\t');
                                         count_35=1;
                                         elseif(count_40==0&&no_col<ceil(0.40*t_feat))
                                         dlmwrite('best_feat_wpbc_40.txt',DD,'-append','delimiter','\t');
                                         dlmwrite('best_feat_wpbc_rank_40.txt',coord1,'-append','delimiter','\t');
-                                        dlmwrite('best_feat_wpbc_40.txt',weight_s,'-append','delimiter','\t');
+                                        dlmwrite('best_feat_wpbc_weight_40.txt',weight_s,'-append','delimiter','\t');
                                         count_40=1;
                                         elseif(count_45==0&&no_col<ceil(0.45*t_feat))
                                         dlmwrite('best_feat_wpbc_45.txt',DD,'-append','delimiter','\t');
                                         dlmwrite('best_feat_wpbc_rank_45.txt',coord1,'-append','delimiter','\t');
-                                        dlmwrite('best_feat_wpbc_45.txt',weight_s,'-append','delimiter','\t');
+                                        dlmwrite('best_feat_wpbc_weight_45.txt',weight_s,'-append','delimiter','\t');
                                         count_45=1;
                                         elseif(count_50==0&&no_col<ceil(0.50*t_feat))
                                         dlmwrite('best_feat_wpbc_50.txt',DD,'-append','delimiter','\t');
                                          dlmwrite('best_feat_wpbc_rank_50.txt',coord1,'-append','delimiter','\t');
-                                        dlmwrite('best_feat_wpbc_50.txt',weight_s,'-append','delimiter','\t');
+                                        dlmwrite('best_feat_wpbc_weight_50.txt',weight_s,'-append','delimiter','\t');
                                         count_50=1;                                       
                                         end
                                         
@@ -197,7 +197,7 @@ e=0.5;
 
   dlmwrite('best_feat_wpbc_1.txt',DD,'-append','delimiter','\t');
   dlmwrite('best_feat_wpbc_rank_1.txt',coord1,'-append','delimiter','\t');
-  dlmwrite('best_feat_wpbc_1.txt',weight_s,'-append','delimiter','\t');
+  dlmwrite('best_feat_wpbc_weight_1.txt',weight_s,'-append','delimiter','\t');
 
 end
  
