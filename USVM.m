@@ -31,7 +31,7 @@ for load_file = 1:1
               epsv=[0.5];
 
 %Data file call from folder   
-filename = strcat('newd/',file,'.txt');
+filename = strcat(file,'.txt');
     A = load(filename);
     [m,n] = size(A);
 %define the class level +1 or -1    
