@@ -11,6 +11,7 @@ For quickly reproducing the results of the RUTSVM-CIL algorithm, we have include
 This code is for non-commercial and academic use only. Please cite the following papers if you are using this code.
 
 References:
+
 [1]. B. Richhariya, M. Tanveer, A.H. Rashid and Alzheimer’s Disease Neuroimaging Initiative, 2020. Diagnosis of Alzheimer's disease using universum support vector machine based recursive feature elimination (USVM-RFE). Biomedical Signal Processing and Control, 59, p.101903, https://doi.org/10.1016/j.bspc.2020.101903.
 
 [2]. S. R. Gunn. Support Vector Machines for Classification and Regression. Technical Report, Image Speech and Intelligent Systems Research Group, University of Southampton, 1997.
