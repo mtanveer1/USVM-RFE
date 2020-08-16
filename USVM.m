@@ -90,7 +90,7 @@ elseif(di<0)
 Au=[Au ;Au(1:abs(di),:)];
 end   
  U=(Au+Bu)/2;   
-   A=C;
+  
 
     %Combining all the column in one variable
      A=[x1 y1];    %training data
@@ -128,8 +128,7 @@ end
                      end
        
            %% updating optimum c, L
-           fprintf(file2,'file %s c %8.6g c2 %8.6g e %8.6g u_per %8.6g avgerror %8.6g\n',file,c,c2,e,u_per,avgerror);
-%            fprintf(file2,'file %s c1 %8.6g mu %8.6g ep %8.6g avgerror %8.6g\n',file,c,mu,ep,avgerror);
+          
            if avgerror > min_err
                min_err = avgerror;
                min_c1 = c;
