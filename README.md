@@ -6,7 +6,7 @@ Description of files:
 
 USVM_RFE.m: Selects the features using USVM-RFE algorithm.
 
-For quickly reproducing the results of the RUTSVM-CIL algorithm, we have included the wpbc dataset. One can simply run the USVM_RFE.m file to check the obtained results on this sample dataset. To run experiments on more datasets, simply add datasets in the folder and run USVM_RFE.m file. For selecting the optimal parameters, one can do the standard training of USVM first using USVM.m file.
+For quickly running the USVM-RFE algorithm, we have included the wpbc dataset. One can simply run the USVM_RFE.m file to check the obtained results on this sample dataset. To run experiments on more datasets, simply add datasets in the folder and run USVM_RFE.m file. For selecting the optimal parameters, one can do the standard training of USVM first using USVM.m file.
 
 This code is for non-commercial and academic use only. Please cite the following papers if you are using this code.
 
